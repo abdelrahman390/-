@@ -25,7 +25,7 @@ function map(Latitude = 24.16009, Longitude = 45.06283) {
     }).addTo(map);
 
     var myIcon = L.icon({
-        iconUrl: '../../assets/javascript/map/images/mosque-marker.png',
+        iconUrl: '../assets/javascript/map/images/mosque-marker.png',
         iconSize: [50, 80],
         iconAnchor: [43, 75]
     });
