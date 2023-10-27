@@ -39,5 +39,5 @@ inputs.forEach(element => {
 });
 
 button.onclick = () => {
-    doneMessage('../../assets/images/Done.webp', 'تم تغيير كلمة المرور بنجاح', "../../../pages/account/account.html", 'حسناً')
+    doneMessage('../../assets/images/Done.webp', 'تم تغيير كلمة المرور بنجاح', "../../pages/account/account.html", 'حسناً')
 }
