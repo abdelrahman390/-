@@ -8,7 +8,7 @@ saveButton.onclick = () => {
         form.addEventListener('submit', function (event) {
             event.preventDefault(); // Prevent form submission
 
-            doneMessage('../../../../assets/images/Done.webp', 'تم ', "", 'إغلاق')
+            doneMessage('../../../../../../assets/images/Done.webp', 'تم ', "", 'إغلاق')
         });
     }
 }
