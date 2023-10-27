@@ -3,11 +3,6 @@ let inputs = document.querySelectorAll('.max-width input'),
     button = document.querySelector('.max-width .container .lift button');
 // accountNewPasswordButtons = document.querySelector(' .max-width .container .lift button');
 
-// console.log(inputs)
-// console.log(alarmMessage)
-// console.log(button)
-// console.log(accountNewPasswordButtons)
-
 inputs.forEach(element => {
     element.addEventListener('input', function (event) {
         function handleClick() {
@@ -44,5 +39,5 @@ inputs.forEach(element => {
 });
 
 button.onclick = () => {
-    doneMessage('../../../assets/images/Done.webp', 'تم تغيير كلمة المرور بنجاح', "../../../pages/account/account.html", 'حسناً')
+    doneMessage('../../assets/images/Done.webp', 'تم تغيير كلمة المرور بنجاح', "../../../pages/account/account.html", 'حسناً')
 }
