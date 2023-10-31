@@ -36,7 +36,7 @@ button.onclick = () => {
     if (form.checkValidity() && inputs[2].value.length !== 0 && inputs[3].value.length !== 0) {
         form.addEventListener('submit', function (event) {
             event.preventDefault(); // Prevent form submission
-            doneMessage('../../../../assets/images/Done.webp', 'تم إنشاء حساب بنجاح', "../../../pages/account/account.html", 'الحساب')
+            doneMessage('../../assets/images/Done.webp', 'تم إنشاء حساب بنجاح', "../../../pages/account/account.html", 'الحساب')
         });
     }
 }
